@@ -1,0 +1,43 @@
+textarea {
+    min-height: 400px;
+}
+
+@keyframes archive{
+    0%{
+        opacity: 1;
+        left: 0%;
+    }
+    100%{
+        opacity: 0;
+        left: 50%;
+    }
+}
+
+.email {
+    position: relative;
+    border: 2px solid black ;
+    margin: 2px;
+    padding: 2px;
+    padding-bottom: 30px;
+    animation-name: archive;
+    animation-duration: 1s;
+    animation-play-state: paused;
+
+}
+
+.date{
+    text-align: right;
+    width: fit-content;
+    position: absolute;
+    padding: 2px;
+    right: 0;
+    
+}
+
+.archive-button{
+    position: absolute;
+    top: 78px;
+    
+}
+
+
